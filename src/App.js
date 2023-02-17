@@ -7,6 +7,7 @@ import {CartProvider} from "react-use-cart"
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Allproducts from "./components/pages/Allproducts";
+import Addproduct from "./components/pages/Addproduct";
 
 
 
@@ -24,6 +25,7 @@ function App() {
         <Routes>
           <Route path = "/" element = {<Home/>}></Route>
           <Route path = "/all-products" element = {<Allproducts/>}></Route>
+          <Route path = "/add-product" element = {<Addproduct/>}></Route>
         </Routes>
         
       </CartProvider>
