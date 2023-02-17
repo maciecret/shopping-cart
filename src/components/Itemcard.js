@@ -12,7 +12,7 @@ const Itemcard = (props) => {
             <h5 class="card-title">{props.title}</h5>
             <h5 class="card-title">₱ {props.price}</h5>
             <p class="card-text">{props.desc}</p>
-            <button class="btn btn-success" onClick = { () => addItem(props.item)}>Add to Cart</button>
+            <button class="btn btn-success"  style = {{backgroundColor: "#576179"}} onClick = { () => addItem(props.item)}>Add to Cart</button>
             </div>
         </div>
     </div>

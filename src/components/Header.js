@@ -28,12 +28,16 @@ export default function Header() {
 
   return (
     <div>
-        <nav class="navbar navbar-light" style = {{ backgroundColor: '#e3f2fd', paddingLeft: "2%"}} >
+        <nav class="navbar navbar-light" style = {{ backgroundColor: '#e3f2fd', paddingLeft: "2%", display: "flex", justifyContent: "space-between"}}  >
             <a class="navbar-brand" href="./Home"><h3 style = {{ color: "#576179"}}>Home Funiture</h3></a>
+
+            <div style = {{display: "flex", justifyContent: "space-between", gap: "20px"}}>
+            <a class ="all-products" href='./all-products' style={{textDecoration:"underline", color: "#576179", fontSize: "15px"}}>All products</a>
             <button onClick={ShowCart} style ={{backgroundColor:"transparent", border: "none"}}>
-              
               <FontAwesomeIcon icon={faCartShopping} style = {{fontSize: "20px"}}/>
-              <span class="badge badge-success" style = {{ backgroundColor: "#576179", padding: "0 2px,", verticalAlign: "top", marginLeft: "-10px", borderRadius: "50%"}}>{totalUniqueItems}</span></button>
+              <span class="badge badge-success" style = {{ backgroundColor: "#576179", padding: "0 2px,", verticalAlign: "top", marginLeft: "-10px", borderRadius: "50%"}}>{totalUniqueItems}</span>
+            </button>
+            </div>
             
         
         </nav>

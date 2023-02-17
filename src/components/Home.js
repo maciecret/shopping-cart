@@ -20,7 +20,7 @@ export default function Home() {
         <Header/>
         
         <div>
-        <h1 className = "text-center mt-3"  style = {{ color: "#576179"}}>All items</h1>
+        <h1 className = "text-center mt-3"  style = {{ color: "#576179"}}>Featured Items</h1>
             <section className='py-4 container'>
                 <div className='row justify-content-center'>
 
