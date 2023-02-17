@@ -41,7 +41,7 @@ export default function Header() {
             
         
         </nav>
-        <div style = {{margin: "1%", border: "1px solid #576179"}}>
+        <div>
            
           {
             show && (<Cart/>)

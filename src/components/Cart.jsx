@@ -13,16 +13,16 @@ export default function Cart() {
       emptyCart
   } = useCart();
 
-  if (isEmpty) return <h1 className='text-center' style = {{color: "#576179"}}>Your cart is empty</h1>;
+  if (isEmpty) return <h1 className='text-center' style = {{color: "#576179",  border: "1px solid #576179", margin: "1%", backgroundColor: "#e3f2fd"}}>Your cart is empty</h1>;
 
 
   return (
     <>
-    <section className='py-4 container'>
+    <section className='py-4 container'style= {{marginTop: "1%", border: "1px solid #576179",backgroundColor: "#e3f2fd"}}>
       <div className='row justify-content-center'>
         <div className='col-12'>
           <h5>My Cart ---- Total Items: ({totalItems})</h5>
-          <table className = "table table-light table-hover m-0">
+          <table className = "table table-light table-hover m-0" style = {{backgroundColor: "#e3f2fd"}}>
             <tbody>           
               {items.map((item, index) => {
                 return(
