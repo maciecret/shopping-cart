@@ -20,6 +20,24 @@ const data = {
             desc: "Comfy",
             price: 20000
 
+        }
+    ],
+    allProduct: [
+        {
+            id: 1,
+            img: img1,
+            title: "White Couch",
+            desc: "Comfy",
+            price: 10000
+
+        },
+        {
+            id: 2,
+            img: img2,
+            title: "Green Couch",
+            desc: "Comfy",
+            price: 20000
+
         },
         {
             id: 3,

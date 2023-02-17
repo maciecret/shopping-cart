@@ -3,7 +3,7 @@
 import React  from 'react';
 
 import Itemcard from "./Itemcard";
-import Header from './Header';
+
 
 import data from '../data/data';
 
