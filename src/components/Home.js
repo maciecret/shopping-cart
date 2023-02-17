@@ -17,7 +17,7 @@ export default function Home() {
   
   return (
     <>   
-        <Header/>
+        
         
         <div>
         <h1 className = "text-center mt-3"  style = {{ color: "#576179"}}>Featured Items</h1>

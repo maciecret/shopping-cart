@@ -29,7 +29,7 @@ export default function Header() {
   return (
     <div>
         <nav class="navbar navbar-light" style = {{ backgroundColor: '#e3f2fd', paddingLeft: "2%", display: "flex", justifyContent: "space-between"}}  >
-            <a class="navbar-brand" href="./Home"><h3 style = {{ color: "#576179"}}>Home Funiture</h3></a>
+            <a class="navbar-brand" href="./"><h3 style = {{ color: "#576179"}}>Home Funiture</h3></a>
 
             <div style = {{display: "flex", justifyContent: "space-between", gap: "20px"}}>
             <a class ="all-products" href='./all-products' style={{textDecoration:"underline", color: "#576179", fontSize: "15px"}}>All products</a>
