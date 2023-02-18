@@ -1,0 +1,41 @@
+{
+  "productData": [
+    {
+      "id": 1,
+      "img": "https://m.media-amazon.com/images/I/91mlJsUrSML._AC_SX679_.jpg",
+      "title": "White Couch",
+      "desc": "Comfy",
+      "price": 10000
+    },
+    {
+      "id": 2,
+      "img": "https://m.media-amazon.com/images/I/91OBMe5+WzL._AC_SL1500_.jpg",
+      "title": "Green Couch",
+      "desc": "Comfy",
+      "price": 20000
+    }
+  ],
+  "allProduct": [
+    {
+      "id": 1,
+      "img": "https://m.media-amazon.com/images/I/91mlJsUrSML._AC_SX679_.jpg",
+      "title": "White Couch",
+      "desc": "Comfy",
+      "price": 10000
+    },
+    {
+      "id": 2,
+      "img": "https://m.media-amazon.com/images/I/91OBMe5+WzL._AC_SL1500_.jpg",
+      "title": "Green Couch",
+      "desc": "Comfy",
+      "price": 20000
+    },
+    {
+      "id": 3,
+      "img": "https://m.media-amazon.com/images/I/81q4xYmvm0S._AC_SX679_.jpg",
+      "title": "Greyish Chair",
+      "desc": "Comfy",
+      "price": 15000
+    }
+  ]
+}
